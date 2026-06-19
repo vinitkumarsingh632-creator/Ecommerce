@@ -11,7 +11,7 @@ export default function TabNavigation () {
      
     return (
         
-            <Tab.Navigator screenOptions={{tabBarActiveTintColor:'red',tabBarStyle:{padding:5,height:100},tabBarLabelStyle:{fontSize:12}}}>
+            <Tab.Navigator screenOptions={{headerShown:false,tabBarActiveTintColor:'red',tabBarStyle:{padding:5,height:100},tabBarLabelStyle:{fontSize:12}}}>
                 <Tab.Screen name='Home' component={Home} options={{
                     tabBarIcon:({color,size,focused})=>(
                         <Ionicons name={focused?'home':'home-outline'} color={color} size={size}/>

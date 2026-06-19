@@ -8,7 +8,6 @@ export default function App () {
     <NavigationContainer>
       <TabNavigation/>
     </NavigationContainer>
-    <Text className="text-amber-400">Hello</Text>
     </>
   )
 }
